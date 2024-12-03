@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        input, label, textarea {
+          display: block;
+          margin-bottom: 15px;
+        }
+      </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Bishal Deb Roy (Raj)</h1>
+            <h4 align="center">Front-End Development</h4>
+            <ul class="nav-links">
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="aboutMe">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt debitis voluptatum illo incidunt porro corrupti numquam quibusdam laudantium esse quis. Molestiae cupiditate esse ipsum dolorem quisquam nostrum eum, obcaecati omnis?</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Campus Ambassador of Airwork.ai (Engineering Team)</li>
+            <li>Treasurer of IEEE Computer Society Student Branch Chapter</li>
+            <li>Assistant Director of Robotics Club of BRAC University (A&D)</li>
+            <li>I Was one of the instructors of a workshop of Basics of Linux.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h4><u>Programming Language</u></h4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>SQL</li>
+            <li>Python</li>
+        </ul>
+
+        <h4><u>Tools & Platforms</u></h4>
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>MySQL</li>
+            <li>Tinker cad</li>
+        </ul>
+
+        <h4><u>Frameworks & Libraries</u></h4>
+        <ul>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+            <li>Flask</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Institution</th>
+                <th>Department / Group</th>
+                <th>Board</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Scholarshome Majortila College</td>
+                <td>Science</td>
+                <td>Sylhet</t>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Scholarshome Majortila College</td>
+                <td>Science</td>
+                <td>Sylhet</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>BRAC University</td>
+                <td>Computer Science</td>
+                <td>Dhaka</td>
+                <td>2024</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contactMe">
+        <h2>Contact Me</h2>
+        <p>Email: bishal.deb.roy@g.bracu.ac.bd<br>
+            Contact Number: 1223445666
+        </p>
+        
+        <h2>Leave a message for me, I will get back ot you</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" email="email" required> <br>
+
+            <label for="message">Message</label>
+            <textarea type="text" id="message" message="message" required></textarea> <br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
